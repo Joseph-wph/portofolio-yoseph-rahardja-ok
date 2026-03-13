@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="max-w-7xl mx-auto my-5 px-4 sm:px-6 lg:px-8 font-heading overflow-hidden">
+      <nav className="max-w-7xl mx-auto my-5 px-4 sm:px-6 lg:px-8 font-heading">
         <div className="bg-black/30 w-90 h-12 lg:w-138 lg:h-12 rounded-full flex flex-row justify-between items-center px-5 lg:justify-center">
           <h1 className="font-bold text-[20px] text-white lg:hidden">Edwin</h1>
           {/* ===== Desktop Menu ===== */}

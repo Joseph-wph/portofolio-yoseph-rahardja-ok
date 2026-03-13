@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 
 const designAccuracySection = () => {
   return (
-    <div className="w-full mx-auto my-5 flex flex-col justify-center items-center gap-5 font-heading p-5">
+    <div className="w-full mx-auto my-5 flex flex-col justify-center items-center gap-5 font-heading p-5 overflow-hidden">
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-25">
         <div className="flex flex-col justify-center items-center lg:items-start gap-4 lg:w-250 mx-2 px-3">
           <h1 className="font-bold text-center text-[32px]">

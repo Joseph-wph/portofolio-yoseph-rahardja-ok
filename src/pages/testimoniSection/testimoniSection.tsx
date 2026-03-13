@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 
 const testimoni = () => {
   return (
-    <div className="w-full mx-auto my-5 flex flex-col justify-center items-center gap-5 font-heading p-8">
+    <div className="w-full mx-auto my-5 flex flex-col justify-center items-center gap-5 font-heading p-8 overflow-hidden">
       <div className="flex flex-col gap-5">
         <h1 className="font-bold text-[36px] text-center">
           What They Say About Working With Me

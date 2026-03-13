@@ -38,7 +38,7 @@ export function Form() {
 
   return (
     <>
-      <Card className="mx-auto my-5 font-heading w-100 h-auto">
+      <Card className="mx-auto my-5 font-heading w-100 h-auto overflow-hidden">
         <CardContent>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col gap-6">

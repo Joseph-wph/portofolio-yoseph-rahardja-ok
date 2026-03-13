@@ -4,7 +4,7 @@ import { HiOutlineX } from "react-icons/hi";
 
 const moreThanSection = () => {
   return (
-    <div className="mx-auto w-full flex flex-col justify-center items-center gap-5 font-heading p-5">
+    <div className="mx-auto w-full flex flex-col justify-center items-center gap-5 font-heading p-5 overflow-hidden">
       <div className="flex flex-col gap-4">
         <h1 className="text-[36px] font-bold text-center">
           More Than Just Code

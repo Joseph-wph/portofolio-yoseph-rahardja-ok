@@ -2,7 +2,7 @@ import Form from "@/components/form/form";
 
 const workSection = () => {
   return (
-    <div className="w-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-5 p-5 font-heading">
+    <div className="w-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-5 p-5 font-heading overflow-hidden">
       <div className="flex flex-col p-5 gap-4">
         <h1 className="font-bold text-[36px] text-left">Let’s Work Together</h1>
         <p className="text-[16px] text-left leading-8">
